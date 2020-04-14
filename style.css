@@ -617,17 +617,46 @@ p {
 
 .cardcourse .cardcourse-box .del-course-list .del-course-meta {
     width: 80%;
-    height: 45%;
-    margin: 20px auto;
+    height: 25%;
+    margin: 30px auto;
+    justify-content: flex-end;
     display: grid;
 
 }
 
-.cardcourse .cardcourse-box .del-course-list .del-course-meta .photo {
+.cardcourse .cardcourseContainer .cardcourse-box .del-course-list .del-course-meta {
+    display: grid;
+    grid-template-areas:
+        "photo author"
+        "photo name"
+        "relate-link relate-link";
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: 1fr 1fr 0.5fr;
 
+}
 
+.cardcourse .cardcourseContainer .cardcourse-box .del-course-list .del-course-meta .photo {
+    grid-area: photo;
+    background-color: #fff;
 
+}
 
+.cardcourse .cardcourseContainer .cardcourse-box .del-course-list .del-course-meta .author {
+    grid-area: author;
+    background-color: rgb(20, 20, 20);
 
+}
 
-    /* Akhir Panel Sebalah Kanan*/
+.cardcourse .cardcourseContainer .cardcourse-box .del-course-list .del-course-meta .name {
+    grid-area: name;
+    background-color: rgb(77, 77, 160);
+
+}
+
+.cardcourse .cardcourseContainer .cardcourse-box .del-course-list .del-course-meta .relate-link {
+    grid-area: relate-link;
+    background-color: rgb(177, 40, 40);
+
+}
+
+/* Akhir Panel Sebalah Kanan*/

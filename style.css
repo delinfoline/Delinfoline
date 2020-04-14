@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/icon?family=Material+Icons);
 @import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+
 /*CSS Format*/
 * {
     margin: 0;
@@ -31,9 +32,11 @@ body {
     background-color: #101119;
     color: navajowhite;
 }
+
 h2 {
     font-family: 'Comfortaa', cursive;
 }
+
 p {
     font-family: sans-serif;
 }
@@ -60,7 +63,7 @@ p {
 
 .nav-logo .center-box {
     margin: auto;
-    
+
 }
 
 .nav-logo h1 {
@@ -117,7 +120,8 @@ p {
     color: aliceblue;
     text-decoration: none;
     margin: auto;
-    transition: 100ms; /*1000ms = 1s*/
+    transition: 100ms;
+    /*1000ms = 1s*/
 }
 
 .nav-menu .ulnav li a:hover {
@@ -131,21 +135,21 @@ p {
 /*Setting search box*/
 
 .searchBox {
-    background: rgb( 246, 238, 218);
+    background: rgb(246, 238, 218);
     height: 57px;
     border-radius: 40px;
     padding: 8.5px;
     margin: auto;
 }
 
-.searchBox:focus-within > .searchInput {
+.searchBox:focus-within>.searchInput {
     width: 200px;
     padding: 0 6px;
 }
 
-.searchBox:focus-within > .searchButton {
-  background: navajowhite;
-  color : #2f3640;
+.searchBox:focus-within>.searchButton {
+    background: navajowhite;
+    color: #2f3640;
 }
 
 .searchButton {
@@ -154,7 +158,7 @@ p {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: rgba( 214, 214, 188, 0.945 );
+    background: rgba(214, 214, 188, 0.945);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -163,10 +167,10 @@ p {
 }
 
 .searchInput {
-    border:none;
+    border: none;
     background: none;
-    outline:none;
-    float:left;
+    outline: none;
+    float: left;
     padding: 0;
     color: #21211c;
     font-size: 16px;
@@ -183,7 +187,7 @@ p {
 .opening {
     width: 100%;
     height: 600px;
-    background: url(image/images/image5.jpg) no-repeat center center fixed; 
+    background: url(image/images/image5.jpg) no-repeat center center fixed;
     background-size: cover;
     filter: opacity(0.9);
 }
@@ -194,7 +198,7 @@ p {
     top: 50%;
     left: 150px;
     position: relative;
-    background: rgba( 36, 36, 30, 0.502 );
+    background: rgba(36, 36, 30, 0.502);
     border-radius: 30px;
     overflow: hidden;
 }
@@ -213,7 +217,7 @@ p {
     border-radius: 30px;
     margin: 0 0 0 40px;
     cursor: pointer;
-    background-color: rgba( 20, 20, 20, 0.727 );
+    background-color: rgba(20, 20, 20, 0.727);
     color: aliceblue;
     font-weight: 750;
     transition: .2s;
@@ -249,6 +253,7 @@ p {
 .container-news .news .image-box.large {
     flex: 1.8;
 }
+
 .container-news .news .image-box.image {
     display: flex;
     flex: 1.3;
@@ -277,14 +282,15 @@ p {
     margin-bottom: 20px;
     font-size: 35px;
     font-weight: 600;
-    
+
 }
 
 .news .image-box .news-article h2 a {
     color: #ff4500;
     text-decoration: none;
-    
+
 }
+
 .news .image-box .news-article h2 a:hover {
     text-decoration: underline;
 }
@@ -324,7 +330,7 @@ p {
     align-self: flex-end;
     height: 30%;
     width: 100%;
-    background-color: rgba( 15, 15, 15, 0.845 );
+    background-color: rgba(15, 15, 15, 0.845);
     border-radius: 30px;
     display: flex;
 }
@@ -347,7 +353,7 @@ p {
 .news .image-box.large.dua .news-articledua {
     height: 45%;
     width: 100%;
-    align-self:center;
+    align-self: center;
     margin: 10px;
     padding: 0px 50px 0px 80px;
 }
@@ -358,13 +364,16 @@ p {
     font-family: 'Comfortaa', cursive;
     font-weight: 600;
 }
+
 .news .image-box.large.dua .news-articledua h2 a {
     color: #ff4500;
     text-decoration: none;
 }
+
 .news .image-box.large.dua .news-articledua h2 a:hover {
     text-decoration: underline;
 }
+
 .news .image-box.large.dua .news-articledua p {
     color: white;
     font-size: 25px;
@@ -382,10 +391,11 @@ p {
     display: flex;
 }
 
-.profile .pf-box.satu{
+.profile .pf-box.satu {
     flex: 2;
 }
-.profile .pf-box.dua{
+
+.profile .pf-box.dua {
     flex: 1.8;
     display: flex;
 }
@@ -395,6 +405,7 @@ p {
     width: 80%;
     margin: 60px auto 20px;
 }
+
 .profile .pf-box.satu .pf-textBox h1 {
     margin: 0px 0px 30px 0px;
     font-family: Averia Sans Libre;
@@ -406,12 +417,14 @@ p {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .profile .pf-box.satu .pf-textBox p {
     width: 600px;
     font-size: 19px;
     color: #f2f2f2;
     word-spacing: 3px;
 }
+
 .profile .pf-box.satu .pf-textBox .logo {
     color: #ff4500;
     font-family: 'Comfortaa', cursive;
@@ -421,11 +434,13 @@ p {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .profile .pf-box.satu .pf-textBox .slogan {
     font-size: 18px;
     margin: 19px auto;
     font-weight: 100;
 }
+
 /* Akhir Left side content*/
 
 /* Right side content*/
@@ -435,8 +450,8 @@ p {
     width: 90%;
     margin: auto;
     border-radius: 21px;
-    box-shadow:  30px 30px 59px #0e0e15, 
-             -30px -30px 59px #12141d;
+    box-shadow: 30px 30px 59px #0e0e15,
+        -30px -30px 59px #12141d;
 }
 
 .profile .pf-box.dua .pf-boxRa .image-Box {
@@ -460,17 +475,17 @@ p {
 }
 
 .profile .pf-box.satu .fa {
-  height: 45px;
-  width: 45px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  padding: 9px;
-  font-size: 30px;
-  border-radius: 50%;
-  box-shadow:  8px 8px 22px #0b0b11, 
-             -8px -8px 22px #151722;
-  transition: .3s;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    padding: 9px;
+    font-size: 30px;
+    border-radius: 50%;
+    box-shadow: 8px 8px 22px #0b0b11,
+        -8px -8px 22px #151722;
+    transition: .3s;
 }
 
 .fa:hover {
@@ -481,8 +496,12 @@ p {
     -webkit-text-fill-color: transparent;
 }
 
-.fa-youtube, .fa-facebook, .fa-google, .fa-instagram, .fa-github {
-  background: linear-gradient(to right, #eed29f 10%, #ff4500 100%);
+.fa-youtube,
+.fa-facebook,
+.fa-google,
+.fa-instagram,
+.fa-github {
+    background: linear-gradient(to right, #eed29f 10%, #ff4500 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -525,8 +544,8 @@ p {
     height: 95%;
     margin: auto;
     border-radius: 5%;
-    box-shadow:  8px 8px 22px #0b0b11, 
-             -8px -8px 22px #151722;
+    box-shadow: 8px 8px 22px #0b0b11,
+        -8px -8px 22px #151722;
 }
 
 .cardcourse .cardcourse-box .del-course .del-courseHeader {
@@ -535,8 +554,8 @@ p {
     margin: 60px auto;
     box-sizing: border-box;
     border-radius: 5%;
-    box-shadow:  8px 8px 22px #0b0b11, 
-             -8px -8px 22px #151722;
+    box-shadow: 8px 8px 22px #0b0b11,
+        -8px -8px 22px #151722;
 }
 
 .cardcourse .cardcourse-box .del-course .del-courseHeader .meta {
@@ -562,8 +581,8 @@ p {
     height: 95%;
     margin: auto;
     border-radius: 5%;
-    box-shadow:  8px 8px 22px #0b0b11, 
-             -8px -8px 22px #151722;
+    box-shadow: 8px 8px 22px #0b0b11,
+        -8px -8px 22px #151722;
 }
 
 .cardcourse .cardcourse-box .del-course-list .del-courseHeader {
@@ -580,11 +599,12 @@ p {
     letter-spacing: 1px;
     color: #ea6500;
 }
+
 .cardcourse .cardcourse-box .del-course-list .del-courseHeader h2 {
     margin: 40px auto 0px;
     line-height: 35px;
     letter-spacing: 1.5px;
-    
+
 }
 
 .cardcourse .cardcourse-box .del-course-list .del-courseHeader .term {
@@ -610,8 +630,4 @@ p {
 
 
 
-/* Akhir Panel Sebalah Kanan*/
-
-
-
-
+    /* Akhir Panel Sebalah Kanan*/

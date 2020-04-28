@@ -675,7 +675,6 @@ Setting course meta position
     font-weight: 600;
     letter-spacing: .18em;
 
-
 }
 
 .cardcourse .cardcourseContainer .cardcourse-box .del-course-list .del-course-meta .name {
@@ -696,6 +695,14 @@ Setting course meta position
 
 /* ---------------------------------------------------------------
 Akhir Panel Sebalah Kanan
+ ---------------------------------------------------------------*/
+.cardcourse .cardcourseContainer .cardcourse-box.list .del-course-list a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ---------------------------------------------------------------
+Akhir Setting Card COurse
  ---------------------------------------------------------------*/
 
 
